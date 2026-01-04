@@ -1,0 +1,20 @@
+package com.vishal.projects.lovable_clone.service.impl;
+
+import com.vishal.projects.lovable_clone.dto.auth.AuthResponse;
+import com.vishal.projects.lovable_clone.dto.auth.LoginRequest;
+import com.vishal.projects.lovable_clone.dto.auth.SignupRequest;
+import com.vishal.projects.lovable_clone.service.AuthService;
+import org.springframework.stereotype.Service;
+
+@Service
+public class AuthServiceImpl implements AuthService {
+    @Override
+    public AuthResponse signup(SignupRequest request) {
+        return null;
+    }
+
+    @Override
+    public AuthResponse login(LoginRequest request) {
+        return null;
+    }
+}
